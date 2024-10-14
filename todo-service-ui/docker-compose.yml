@@ -1,6 +1,5 @@
 version: '3.7'
 services:
-services:
   app:
     build: .
     command: sh -c "npm start"
