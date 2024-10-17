@@ -123,7 +123,6 @@
       }
     }
   },
-  "defaultProject": "google-maps",
   "cli": {
     "analytics": "d8bf437a-19b8-4c60-9062-1cd37b3fc8c8"
   }
