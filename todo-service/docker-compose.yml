@@ -1,7 +1,7 @@
 version: "3"
 services:
   todo-backend:
-    image: todo-backend
+    image: hnjaman/todo-backend:latest
     restart: always
     build: .
     ports:
