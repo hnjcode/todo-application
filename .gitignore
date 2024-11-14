@@ -9,6 +9,9 @@ todo-service/target/*
 !**/src/main/**
 !**/src/test/**
 
+# mysql data
+db_data/*
+
 ### angular ###
 # compiled output
 /todo-service-ui/dist
