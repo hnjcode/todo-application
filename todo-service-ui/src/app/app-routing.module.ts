@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { TodoComponent } from './todo/todo.component';
 
 const routes: Routes = [
-  { path: 'home', component: TodoComponent },
-  { path: "**", redirectTo: "/home" }
+  { path: '', component: TodoComponent },  // Default route will be the TodoComponent
+  { path: '**', component: TodoComponent }  // Catch-all route, will render TodoComponent for unknown paths
 ];
 
 @NgModule({

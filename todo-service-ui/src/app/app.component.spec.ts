@@ -16,10 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'google-maps'`, () => {
+  it(`should have as title 'todo-service-ui'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('google-maps');
+    expect(app.title).toEqual('todo-service-ui');
   });
 
   it('should render title', () => {
